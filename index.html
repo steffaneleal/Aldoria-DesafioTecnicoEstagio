@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aldoria</title>
 
+    <!--ICON-->
     <link rel="icon" href="assets/aldoria logo png.png" type="image/x-icon">
+
+    <!--HTML FILES-->
     <link rel="stylesheet" href="characters.html">
     <link rel="stylesheet" href="missions.html">
+
+    <!--CSS FILES-->
     <link rel="stylesheet" href="style.css">
+
+    <!--EXTRA-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -22,10 +30,12 @@
             </div>
 
             <div class="header-nav">
-                <a href="index.html">Início</a>
-                <a href="characters.html">Personagens</a>
-                <a href="missions.html">Missões</a>
-                <a href="#contact-us">Suporte</a>
+                <nav>    
+                    <a href="index.html">Início</a>
+                    <a href="characters.html">Personagens</a>
+                    <a href="missions.html">Missões</a>
+                    <a href="#contact-us">Suporte</a>
+                </nav>
             </div>
         </header>
 
@@ -50,18 +60,12 @@
             <h1>Personagens</h1>
 
             <div class="characters-cards">
-                <div class="characters-card1">
-                </div>
-                <div class="characters-card2">
-                </div>
-                <div class="characters-card3">
-                </div>
-                <div class="characters-card4">
-                </div>
-                <div class="characters-card5">
-                </div>
-                <div class="characters-card6">
-                </div>
+                <a href="characters.html"><div class="characters-card1"></div></a>
+                <a href="characters.html"><div class="characters-card2"></div></a>
+                <a href="characters.html"><div class="characters-card3"></div></a>
+                <a href="characters.html"><div class="characters-card4"></div></a>
+                <a href="characters.html"><div class="characters-card5"></div></a>
+                <a href="characters.html"><div class="characters-card6"></div></a>
             </div>
             <div class="characters-button">
                 <a href="characters.html">PERSONAGENS</a>
@@ -72,6 +76,73 @@
         <!--MISSIONS-->
         <div id="missions">
             <h1>Missões</h1>
+            <div class="missions-blocks">    
+                <div class="missions-left">
+                    <h2>Missões Principais</h2>
+                    <div class="missions-left-cards">
+                        <div class="missions-left-card">
+                            <div class="missions-card-text">
+                                <a href="#"><h3>Descobrir a identidade dos ladrões.</h3></a>
+                            </div>
+                            <h4>Dificuldade</h4>
+                            <div class="missions-left-card-stars">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                                <img class="missions-stars" src="assets/whitestar.png" alt="">
+                                <img class="missions-stars" src="assets/whitestar.png" alt="">
+                            </div>
+                        </div>
+                        <div class="missions-left-card">
+                            <div class="missions-card-text">
+                                <a href="#"><h3>Impedir a ascensão das trevas.</h3></a>
+                            </div>
+                            <h4>Dificuldade</h4>
+                            <div class="missions-left-card-stars">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="missions-right">
+                    <h2>Missões Secundárias</h2>
+                    <div class="missions-right-cards">
+                        <div class="missions-right-card">
+                            <div class="missions-card-text">
+                                <a href="#"><h3>Encontrar ingredientes raros para as iguarias de Nina.</h3></a>
+                            </div>
+                            <h4>Dificuldade</h4>
+                            <div class="missions-right-card-stars">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                                <img class="missions-stars" src="assets/whitestar.png" alt="">
+                                <img class="missions-stars" src="assets/whitestar.png" alt="">
+                                <img class="missions-stars" src="assets/whitestar.png" alt="">    
+                            </div>
+                        </div>
+                        <div class="missions-right-card">
+                            <div class="missions-card-text">
+                                <a href="#"><h3>Participar de competições de habilidades de tiro com Nelson.</h3></a>
+                            </div>
+                            <h4>Dificuldade</h4>
+                            <div class="missions-right-card-stars">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                                <img class="missions-stars" src="assets/yellowstar-removebg-preview.png" alt="">
+                                <img class="missions-stars" src="assets/whitestar.png" alt="">
+                                <img class="missions-stars" src="assets/whitestar.png" alt="">
+                                <img class="missions-stars" src="assets/whitestar.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="missions-button">
+                <a class="missions-bt" href="missions.html">Mais Missões</a>
+            </div>
         </div>
 
 
@@ -85,22 +156,54 @@
                     <h3>Quer ficar por dentro das novidades?</h3>
                     <form action="">
                         <h4>Nome:</h4>
-                        <input type="text" name="" id="">
+                        <input class="contact-us-form-text" type="text" name="" id="">
                         <h4>E-mail:</h4>
-                        <input type="email" name="" id="">
+                        <input class="contact-us-form-text" type="email" name="" id="">
                         <br>
                         <input class="contact-us-form-button" type="submit" name="" id="">
                     </form>
                 </div>
         
                 <div class="contact-us-social">
-                    instagram
+                    <nav id="contact-us-social-icons">
+                        <ul style="list-style: none">
+                            <li>
+                                <a href="https://github.com/steffaneleal" target="_blank">
+                                    <span>
+                                        <i class="fa fa-github fa-3x"></i> GitHub
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/stéffane-leal-287873223/" target="_blank">
+                                    <span>
+                                        <i class="fa fa-linkedin fa-3x"></i> LinkedIn
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/steffane_leal/" target="_blank">
+                                    <span>
+                                        <i class="fa fa-instagram fa-3x"></i> Instagram
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:steffane.leal@outlook.com" target="_blank">
+                                    <span>
+                                        <i class="fa fa-envelope fa-3x"></i> E-mail
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
 
             <hr>
             <h5>Desenvolvido com 🤍 por Stéffane Leal</h5>
         </div>
+
     </div>
 </body>
 </html>

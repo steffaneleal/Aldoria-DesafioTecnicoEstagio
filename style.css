@@ -13,15 +13,15 @@
 }
 
 
+
 /*HEADER*/
 #header{
     background-color: #110d2a;
-    box-shadow: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 5%;
 }
 
 .header-logo{
@@ -34,12 +34,13 @@
     width: 4rem;
     height: 4rem;
 
-    padding-right: 0.5rem;
+    padding-right: 2%;
 }
 
 #header h1{
     color: #fff;
     font-family: Merriweather;
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 }
 
 #header a{
@@ -52,10 +53,11 @@
 }
 
 #header a:hover{
-    color: aliceblue;
+    color: #cb9987;
     text-decoration: underline;
     transition: color 0.5s ease; 
 }
+
 
 
 /*CONTENT 1*/
@@ -76,13 +78,13 @@
 
 .content1-text h1{
     color: #cb9987;
-    text-decoration: underline;
     font-family: Merriweather;  
     font-weight: 600;
     font-size: 2rem;
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 
-    padding-top: 10rem;
-    padding-bottom: 3rem;
+    padding-top: 25%;
+    padding-bottom: 10%;
 }
 
 .content1-text p{
@@ -92,13 +94,14 @@
     font-family: Ubuntu;
     font-size: 1.4rem;
 
-    padding-left: 3.5rem;
+    padding-left: 10%;
 }
 
 .content1-img{
     width: 30rem;
     height: 30rem;   
 }
+
 
 
 /*CHARACTERS*/
@@ -113,10 +116,11 @@
     color: #cb9987;
     font-family: Merriweather;  
     font-weight: 600;
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 
-    padding-left: 7.5rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-left: 9%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .characters-cards{
@@ -134,6 +138,7 @@
     background-image: url(assets/blue-background/baluni.png);
     background-size: cover;
     border-radius: 3rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
 .characters-card1:hover{
@@ -147,6 +152,7 @@
     background-image: url(assets/blue-background/juno.png);
     background-size: cover;
     border-radius: 3rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
 .characters-card2:hover{
@@ -160,6 +166,7 @@
     background-image: url(assets/blue-background/nelson.png);
     background-size: cover;
     border-radius: 3rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
 .characters-card3:hover{
@@ -173,6 +180,7 @@
     background-image: url(assets/blue-background/nina.png);
     background-size: cover;
     border-radius: 3rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
 .characters-card4:hover{
@@ -186,6 +194,7 @@
     background-image: url(assets/blue-background/ricardo.png);
     background-size: cover;
     border-radius: 3rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
 .characters-card5:hover{
@@ -199,6 +208,7 @@
     background-image: url(assets/blue-background/steff.png);
     background-size: cover;
     border-radius: 3rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
 .characters-card6:hover{
@@ -211,12 +221,14 @@
     justify-content: center;
     align-items: center;
 
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .characters-button a{
     color: #FFF;
+    font-family: Ubuntu;
+
     background-color: #363578;
     border-radius: 0.5rem;
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
@@ -224,22 +236,161 @@
     padding: 1rem 2rem;
 }
 
+.characters-button a:hover{
+    color: #cb9987;
+    transition: 0.3s color ease;
+}
+
+
 
 /*MISSIONS*/
 #missions{
     background-color:  #161617;
+    background-image: url(assets/luxa.org-opacity-changed-luxa.org-opacity-changed-aldoria_logo_png_bg-removebg-preview-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #missions h1{    
     color: #cb9987;
     font-family: Merriweather;  
     font-weight: 600;
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 
-    padding-left: 7.5rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-left: 9%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
+.missions-blocks{
+    display: flex;
+    justify-content: center;
+}
+
+.missions-blocks h2{
+    color: #cb9987;
+    font-family: Merriweather;
+    font-size: larger;
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
+
+    padding-left: 27%;
+}
+
+.missions-stars{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.missions-left-card-stars{
+    display: flex;
+    justify-content: center;
+}
+
+.missions-right-card-stars{
+    display: flex;
+    justify-content: center;
+}
+
+
+.missions-left{
+    width: 30rem;
+    height: 25rem;
+}
+
+.missions-card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.missions-blocks h3{
+    width: 18rem;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
+}
+
+.missions-blocks h4{
+    color: #cb9987;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: small;
+
+    display: flex;
+    justify-content: center;
+}
+
+.missions-left-card{
+    width: 20rem;
+    height: 10rem;
+    background-color: #110d2a;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+
+    display: grid;
+
+    margin-top: 1.5rem;
+    margin-left: 4.5rem;
+}
+
+.missions-left-card:hover{
+    background-color: #363578;
+    transition: background-color 0.8s ease;
+}
+
+.missions-right{
+    width: 30rem;
+    height: 25rem;
+}
+
+.missions-right-card{
+    width: 20rem;
+    height: 10rem;
+    background-color: #110d2a;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+
+    display: grid;
+
+    margin-top: 1.5rem;
+    margin-left: 4.5rem;
+}
+
+.missions-right-card:hover{
+    background-color: #363578;
+    transition: background-color 0.8s ease;
+}
+
+.missions-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.missions-button a{
+    color: #FFF;
+    font-family: Ubuntu;
+
+    background-color: #110d2a;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+
+    padding: 1rem 2rem;
+}
+
+.missions-button a:hover{
+    background-color: #363578;
+    color: #cb9987;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+/*CONTACT US*/
 
 #contact-us{
     width: 100%;
@@ -251,47 +402,101 @@
     color: #cb9987;
     font-family: Merriweather;  
     font-weight: 600;
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 
-    padding-left: 7.5rem;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding-left: 9%;
+    padding-top: 3%;
+    padding-bottom: 1%;
 }
 
 #contact-us h2{
     color: #FFF;
-    font-family: Merriweather;
+    font-family: Ubuntu;
     font-size: large;
+    font-weight: 400;
 
-    padding-left: 7.5rem;
+    padding-left: 9%;
 }
 
 .contact-us-blocks{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+
+    gap: 20%;
 }
 
 .contact-us-form{
+    width: 20rem;
+    height: 17rem;
+
     background-color: #363578;
     color: #FFF;
     border-radius: 1rem;
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
+.contact-us-form h3{
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    text-align: center;
+    
+    color: #cb9987;
+    font-family: Merriweather;
 
-    padding: 1rem 1rem;
+    padding-top: 10%;
 }
 
 .contact-us-form h4{
-    padding-top: 1rem;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-weight: 400;
+
+    padding-top: 6%;
+    margin-left: 13%;
 }
 
-.contact-us-form input{
-    width: 18rem;
+.contact-us-form-text{
+    width: 15rem;
+    margin-left: 13%;
 }
 
 .contact-us-form-button{
+    color: #363578;
+    background-color: #FFF;
+    font-family: Ubuntu;
+    border-radius: 0.25rem;
+
     margin-top: 1rem;
+    margin-left: 37%;
+    padding: 0.25% 1rem;
 }
 
+ul li a{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: Ubuntu;
+}
+
+ul li a:hover{
+    color: #cb9987  ;
+}
+
+ul li a i{
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    color: #FFF; 
+    font-family: Ubuntu;
+}
+
+ul li a i:hover{
+    color: #cb9987;
+}
 
 #contact-us h5{
     display: flex;
@@ -300,7 +505,7 @@
 
     color: #FFF;
     font-family: Ubuntu;
-    font-weight: 500;
+    font-weight: 400;
 
     padding-top: 1rem;
     padding-bottom: 1rem;
