@@ -15,7 +15,7 @@
 }
 
 .characters-block{
-    padding: 5%;    
+    padding: 5% 5% 0 5%;    
 }
 
 #characters h1{
@@ -37,19 +37,54 @@
     color: #FFF;
     font-family: Ubuntu;
     font-size: 1.3rem;
+    font-weight: 400;
 
     padding-left: 10%;
 }
 
-.characters-img{
+.characters-img1{
     width: 25%;
     height: 25%;
-
     border-radius: 3rem;
+
+    margin-right: 3%;
+}
+
+.characters-img2{
+    width: 25%;
+    height: 25%;
+    border-radius: 3rem;
+
+    margin-left: 3%;
 }
 
 .characters-container{
     display: flex;
     justify-content: space-between;
     padding: 3% 0;
+}
+
+.characters-container h2{
+    color: #cb9987;
+    font-family: Merriweather;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+}   
+
+.characters-container h3{
+    color: #cb9987;
+    font-family: Merriweather;
+
+    padding-top: 4%;
+}
+
+.characters-container h3 span{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-weight: 300;
 }
