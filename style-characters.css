@@ -6,3 +6,50 @@
     margin: 0;
     text-decoration: none;
 }
+
+#characters{
+    width: 100%;
+    height: auto;
+    background-color: #161617;
+    
+}
+
+.characters-block{
+    padding: 5%;    
+}
+
+#characters h1{
+    color: #cb9987;
+    font-family: Merriweather;
+    font-size: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+#characters p{
+    text-align: justify;
+    width: 80%;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 1.3rem;
+
+    padding-left: 10%;
+}
+
+.characters-img{
+    width: 25%;
+    height: 25%;
+
+    border-radius: 3rem;
+}
+
+.characters-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+}

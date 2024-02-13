@@ -104,15 +104,15 @@
 
 
 
-/*CHARACTERS*/
-#characters{
+/*index-CHARACTERS*/
+#index-characters{
     width: 100%;
     height: auto;
 
     background-color: #110d2a;
 }
 
-#characters h1{
+#index-characters h1{
     color: #cb9987;
     font-family: Merriweather;  
     font-weight: 600;
@@ -123,7 +123,7 @@
     padding-bottom: 3%;
 }
 
-.characters-cards{
+.index-characters-cards{
     display: grid;
     justify-content: space-around;
     align-items: center;
@@ -132,7 +132,7 @@
     grid-template-columns: 25rem 25rem 25rem;
 }
 
-.characters-card1{
+.index-characters-card1{
     width: 20rem;
     height: 20rem;
     background-image: url(assets/blue-background/baluni.png);
@@ -141,12 +141,12 @@
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
-.characters-card1:hover{
+.index-characters-card1:hover{
     background-image: url(assets/blue-background-hover/baluni.png);
     transition: background-image 0.8s ease; 
 }
 
-.characters-card2{
+.index-characters-card2{
     width: 20rem;
     height: 20rem;
     background-image: url(assets/blue-background/juno.png);
@@ -155,12 +155,12 @@
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
-.characters-card2:hover{
+.index-characters-card2:hover{
     background-image: url(assets/blue-background-hover/juno.png);
     transition: background-image 0.8s ease; 
 }
 
-.characters-card3{
+.index-characters-card3{
     width: 20rem;
     height: 20rem;
     background-image: url(assets/blue-background/nelson.png);
@@ -169,12 +169,12 @@
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
-.characters-card3:hover{
+.index-characters-card3:hover{
     background-image: url(assets/blue-background-hover/nelson.png);
     transition: background-image 0.8s ease; 
 }
 
-.characters-card4{
+.index-characters-card4{
     width: 20rem;
     height: 20rem;
     background-image: url(assets/blue-background/nina.png);
@@ -183,12 +183,12 @@
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
-.characters-card4:hover{
+.index-characters-card4:hover{
     background-image: url(assets/blue-background-hover/nina.png );
     transition: background-image 0.8s ease; 
 }
 
-.characters-card5{
+.index-characters-card5{
     width: 20rem;
     height: 20rem;
     background-image: url(assets/blue-background/ricardo.png);
@@ -197,12 +197,12 @@
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
-.characters-card5:hover{
+.index-characters-card5:hover{
     background-image: url(assets/blue-background-hover/ricardo.png);
     transition: background-image 0.8s ease; 
 }
 
-.characters-card6{
+.index-characters-card6{
     width: 20rem;
     height: 20rem;
     background-image: url(assets/blue-background/steff.png);
@@ -211,12 +211,12 @@
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 
-.characters-card6:hover{
+.index-characters-card6:hover{
     background-image: url(assets/blue-background-hover/steff.png);
     transition: background-image 0.8s ease; 
 }
 
-.characters-button{
+.index-characters-button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,7 +225,7 @@
     padding-bottom: 4%;
 }
 
-.characters-button a{
+.index-characters-button a{
     color: #FFF;
     font-family: Ubuntu;
 
@@ -236,7 +236,7 @@
     padding: 1rem 2rem;
 }
 
-.characters-button a:hover{
+.index-characters-button a:hover{
     color: #cb9987;
     transition: 0.3s color ease;
 }
