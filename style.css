@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#main-container{
+    width: 100%;
+    height: auto;
+}
+
+
+/*HEADER*/
+#header{
+    background-color: #110d2a;
+    box-shadow: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.5rem 4rem;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header img{
+    width: 4rem;
+    height: 4rem;
+
+    padding-right: 0.5rem;
+}
+
+#header h1{
+    color: #fff;
+    font-family: Merriweather;
+}
+
+#header a{
+    color: #848992;
+    font-family: Merriweather;
+    font-size: small;
+    font-weight: 500;
+
+    padding-left: 1rem;
+}
+
+#header a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+    transition: color 0.5s ease; 
+}
+
+
+/*CONTENT 1*/
+#content1{
+    width: 100%;
+    height: auto;
+
+    background-color: #161617;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content1-text{
+    width: 39rem;
+    height: 40rem;
+}
+
+.content1-text h1{
+    color: #cb9987;
+    text-decoration: underline;
+    font-family: Merriweather;  
+    font-weight: 600;
+    font-size: 2rem;
+
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+.content1-text p{
+    text-align: justify;
+    width: 30rem;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 1.4rem;
+
+    padding-left: 3.5rem;
+}
+
+.content1-img{
+    width: 30rem;
+    height: 30rem;   
+}
+
+
+/*CHARACTERS*/
+#characters{
+    width: 100%;
+    height: auto;
+
+    background-color: #110d2a;
+}
+
+#characters h1{
+    color: #cb9987;
+    font-family: Merriweather;  
+    font-weight: 600;
+
+    padding-left: 7.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.characters-cards{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    padding-left: 5rem;
+    grid-template-columns: 25rem 25rem 25rem;
+}
+
+.characters-card1{
+    width: 20rem;
+    height: 20rem;
+    background-image: url(assets/blue-background/baluni.png);
+    background-size: cover;
+    border-radius: 3rem;
+}
+
+.characters-card1:hover{
+    background-image: url(assets/blue-background-hover/baluni.png);
+    transition: background-image 0.8s ease; 
+}
+
+.characters-card2{
+    width: 20rem;
+    height: 20rem;
+    background-image: url(assets/blue-background/juno.png);
+    background-size: cover;
+    border-radius: 3rem;
+}
+
+.characters-card2:hover{
+    background-image: url(assets/blue-background-hover/juno.png);
+    transition: background-image 0.8s ease; 
+}
+
+.characters-card3{
+    width: 20rem;
+    height: 20rem;
+    background-image: url(assets/blue-background/nelson.png);
+    background-size: cover;
+    border-radius: 3rem;
+}
+
+.characters-card3:hover{
+    background-image: url(assets/blue-background-hover/nelson.png);
+    transition: background-image 0.8s ease; 
+}
+
+.characters-card4{
+    width: 20rem;
+    height: 20rem;
+    background-image: url(assets/blue-background/nina.png);
+    background-size: cover;
+    border-radius: 3rem;
+}
+
+.characters-card4:hover{
+    background-image: url(assets/blue-background-hover/nina.png );
+    transition: background-image 0.8s ease; 
+}
+
+.characters-card5{
+    width: 20rem;
+    height: 20rem;
+    background-image: url(assets/blue-background/ricardo.png);
+    background-size: cover;
+    border-radius: 3rem;
+}
+
+.characters-card5:hover{
+    background-image: url(assets/blue-background-hover/ricardo.png);
+    transition: background-image 0.8s ease; 
+}
+
+.characters-card6{
+    width: 20rem;
+    height: 20rem;
+    background-image: url(assets/blue-background/steff.png);
+    background-size: cover;
+    border-radius: 3rem;
+}
+
+.characters-card6:hover{
+    background-image: url(assets/blue-background-hover/steff.png);
+    transition: background-image 0.8s ease; 
+}
+
+.characters-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.characters-button a{
+    color: #FFF;
+    background-color: #363578;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+
+    padding: 1rem 2rem;
+}
+
+
+/*MISSIONS*/
+#missions{
+    background-color:  #161617;
+}
+
+#missions h1{    
+    color: #cb9987;
+    font-family: Merriweather;  
+    font-weight: 600;
+
+    padding-left: 7.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+#contact-us{
+    width: 100%;
+    height: auto;
+    background-color: #110d2a;
+}
+
+#contact-us h1{
+    color: #cb9987;
+    font-family: Merriweather;  
+    font-weight: 600;
+
+    padding-left: 7.5rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+#contact-us h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: large;
+
+    padding-left: 7.5rem;
+}
+
+.contact-us-blocks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-us-form{
+    background-color: #363578;
+    color: #FFF;
+    border-radius: 1rem;
+
+
+    padding: 1rem 1rem;
+}
+
+.contact-us-form h4{
+    padding-top: 1rem;
+}
+
+.contact-us-form input{
+    width: 18rem;
+}
+
+.contact-us-form-button{
+    margin-top: 1rem;
+}
+
+
+#contact-us h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+    font-family: Ubuntu;
+    font-weight: 500;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
