@@ -125,11 +125,11 @@
 
 .index-characters-cards{
     display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    grid-gap: 3rem;
     justify-content: space-around;
     align-items: center;
-    gap: 3rem;
     padding-left: 5rem;
-    grid-template-columns: 25rem 25rem 25rem;
 }
 
 .index-characters-card1{
@@ -139,6 +139,7 @@
     background-size: cover;
     border-radius: 3rem;
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+
 }
 
 .index-characters-card1:hover{
@@ -423,7 +424,7 @@
     justify-content: center;
     align-items: center;
 
-    gap: 20%;
+    gap: 25%;
 }
 
 .contact-us-form{
@@ -471,8 +472,8 @@
     border-radius: 0.25rem;
 
     margin-top: 1rem;
-    margin-left: 37%;
-    padding: 0.25% 1rem;
+    margin-left: 7.5rem;
+    padding: 0.2rem 1rem;
 }
 
 ul li a{
@@ -509,4 +510,40 @@ ul li a i:hover{
 
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+
+/*MEDIA QUERIES*/
+
+
+@media (max-width: 1440px){
+    html{
+        font-size: 75%;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }
+}
+
+@media (max-width: 1024px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 690px){
+    #content1{
+        flex-direction: column;
+    }
+
+    #content1 img{
+        order: -1;
+    }
+
+}
+
+@media (max-width: 426px){
+    .contact-us-blocks{
+        flex-direction: column;
+
+        gap: 3rem;
+    }
 }

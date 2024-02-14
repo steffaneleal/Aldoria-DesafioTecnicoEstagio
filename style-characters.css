@@ -29,6 +29,7 @@
 
     padding-top: 5%;
     padding-bottom: 1%;
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 }
 
 #characters p{
@@ -73,7 +74,7 @@
     justify-content: center;
     align-items: center;
     text-align: justify;
-
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.3);
 }   
 
 .characters-container h3{
