@@ -39,13 +39,13 @@
 
 #header h1{
     color: #fff;
-    font-family: Merriweather;
+    font-family: Merriweather, sans-serif;
     text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 }
 
 .header-nav a{
     color: #848992;
-    font-family: Merriweather;
+    font-family: Merriweather, sans-serif;
     font-size: small;
     font-weight: 500;
 
@@ -74,7 +74,7 @@
 
 .header-nav-mobile nav a{
     color: #848992;
-    font-family: Merriweather;
+    font-family: Merriweather, sans-serif;
     font-size: 2.5rem;
     text-decoration: none;
 
@@ -107,7 +107,7 @@
 
 .content1-text h1{
     color: #cb9987;
-    font-family: Merriweather;  
+    font-family: Merriweather, sans-serif;  
     font-weight: 600;
     font-size: 2rem;
     text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
@@ -120,7 +120,7 @@
     text-align: justify;
     width: 30rem;
     color: #FFF;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-size: 1.4rem;
 
     padding-left: 10%;
@@ -143,7 +143,7 @@
 
 #index-characters h1{
     color: #cb9987;
-    font-family: Merriweather;  
+    font-family: Merriweather, sans-serif;  
     font-weight: 600;
     text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 
@@ -257,7 +257,7 @@
 
 .index-characters-button a{
     color: #FFF;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
 
     background-color: #363578;
     border-radius: 0.5rem;
@@ -269,6 +269,10 @@
 .index-characters-button a:hover{
     color: #cb9987;
     transition: 0.3s color ease;
+}
+
+.characters-container{
+    display: none;
 }
 
 
@@ -283,7 +287,7 @@
 
 #missions h1{    
     color: #cb9987;
-    font-family: Merriweather;  
+    font-family: Merriweather, sans-serif;  
     font-weight: 600;
     text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 
@@ -299,7 +303,7 @@
 
 .missions-blocks h2{
     color: #cb9987;
-    font-family: Merriweather;
+    font-family: Merriweather, sans-serif;
     font-size: larger;
     text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 
@@ -337,14 +341,14 @@
 .missions-blocks h3{
     width: 18rem;
     color: #FFF;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-weight: 500;
     text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
 }
 
 .missions-blocks h4{
     color: #cb9987;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-weight: 400;
     font-size: small;
 
@@ -404,7 +408,7 @@
 
 .missions-button a{
     color: #FFF;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
 
     background-color: #110d2a;
     border-radius: 0.5rem;
@@ -430,7 +434,7 @@
 
 #contact-us h1{
     color: #cb9987;
-    font-family: Merriweather;  
+    font-family: Merriweather, sans-serif;  
     font-weight: 600;
     text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 
@@ -441,7 +445,7 @@
 
 #contact-us h2{
     color: #FFF;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-size: large;
     font-weight: 400;
 
@@ -475,14 +479,14 @@
     text-align: center;
     
     color: #cb9987;
-    font-family: Merriweather;
+    font-family: Merriweather, sans-serif;
 
     padding-top: 10%;
 }
 
 .contact-us-form h4{
     color: #FFF;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-weight: 400;
 
     padding-top: 6%;
@@ -516,7 +520,7 @@
 .contact-us-form-button{
     color: #363578;
     background-color: #FFF;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     border-radius: 0.25rem;
 
     margin-top: 1rem;
@@ -528,7 +532,7 @@ ul li a{
     display: flex;
     align-items: center;
     color: #FFF;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
 }
 
 ul li a:hover{
@@ -540,7 +544,7 @@ ul li a i{
     width: 4rem;
     height: 4rem;
     color: #FFF; 
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
 }
 
 ul li a i:hover{
@@ -553,7 +557,7 @@ ul li a i:hover{
     align-items: center;
 
     color: #FFF;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-weight: 400;
 
     padding-top: 1rem;
@@ -594,8 +598,82 @@ ul li a i:hover{
 
     #header-nav-mobile.open{
         visibility: visible;
-        height: 34vh;
+        height: 35vh;
     }
+
+    /*CAROUSEL*/
+    .index-characters-cards{
+        display: none;
+    }
+
+    .characters-container{
+        display: block;
+        position: relative;
+        padding: 15px;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    .characters-container img{
+        width: 25rem;
+    }
+      
+    .gallery-wrapper::-webkit-scrollbar{
+        display: none;
+    }
+      
+    .gallery-wrapper{
+        overflow-x: auto;
+        
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+      
+      .gallery{
+        display: flex;
+        flex-flow: row nowwrap;
+        gap: 15px;
+      }
+      
+      .arrow-left, .arrow-right{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: auto;
+        bottom: 0;
+        font-size: 3rem;
+        line-height:7rem;
+        width: 3rem;
+        text-align: center;
+        color: #FFF;
+        cursor: pointer;
+        border: none;
+        background: linear-gradient(to left, transparent 0%, black 200%);
+        opacity: 0.1;
+        transition: all 600ms ease-in-out;
+      }
+      
+      .arrow-right{
+        left: auto;
+        right: 0;
+        background: linear-gradient(to right, transparent 0%, black 200%);
+      }
+      
+      .arrow-left:hover, .arrow-right:hover{
+        opacity: 1;
+      }
+      
+      .item{
+        width: 15rem;
+        flex-shrink: 0;
+        opacity: 0.6;
+        transition: all 600ms ease-in-out;
+      }
+      
+      .current-item{
+        opacity: 1;
+      }
+
 
     /*CONTENT1*/
     #content1{
@@ -619,6 +697,10 @@ ul li a i:hover{
     }
 
 
+    /*MISSIONS*/
+    
+
+    
     /*CONTACT-US*/
     .contact-us-blocks{
         margin-top: 1rem;
@@ -648,36 +730,3 @@ ul li a i:hover{
         border: 0.1rem solid #cb9987;
     }
 }
-
-/*
-@media (max-width: 1440px){
-    html{
-        font-size: 75%;
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    }
-}
-
-@media (max-width: 1024px){
-    html{
-        font-size: 50%;
-    }
-}
-
-@media (max-width: 690px){
-    #content1{
-        flex-direction: column;
-    }
-
-    #content1 img{
-        order: -1;
-    }
-
-}
-
-@media (max-width: 426px){
-    .contact-us-blocks{
-        flex-direction: column;
-
-        gap: 3rem;
-    }
-}*/
