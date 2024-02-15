@@ -144,6 +144,7 @@
     justify-content: center;
 
     background-color: #110d2a;
+    background: linear-gradient(to top, #363578, #110d2a);
 }
 
 #index-characters h1{
