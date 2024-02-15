@@ -58,7 +58,12 @@
     transition: color 0.5s ease; 
 }
 
+#header-nav-bt{
+    display: none;
+}
+
 .header-nav-mobile{
+    display: none;
     background-color: #110d2a80;
     backdrop-filter: blur(10px);
     position: absolute;
@@ -67,7 +72,6 @@
     width: 100%;
     height: 0;
 
-    visibility: hidden;
     transition: 0.5s;
     overflow: hidden;
 }
@@ -85,7 +89,6 @@
 .header-nav-mobile nav a:hover{
     background-color: #110d2afa;
 }
-
 
 
 
@@ -137,6 +140,8 @@
 #index-characters{
     width: 100%;
     height: auto;
+    display: grid;
+    justify-content: center;
 
     background-color: #110d2a;
 }
@@ -270,8 +275,10 @@
 }
 
 .index-characters-button a:hover{
+    background-color: #363578;
     color: #cb9987;
-    transition: 0.3s color ease;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .characters-container{
@@ -286,6 +293,9 @@
     background-image: url(assets/luxa.org-opacity-changed-luxa.org-opacity-changed-aldoria_logo_png_bg-removebg-preview-removebg-preview.png);
     background-position: center;
     background-repeat: no-repeat;
+
+    display: grid;
+    justify-content: center;
 }
 
 #missions h1{    
@@ -405,19 +415,20 @@
     justify-content: center;
     align-items: center;
 
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .missions-button a{
     color: #FFF;
     font-family: Ubuntu, sans-serif;
+    font-size: large;
 
-    background-color: #110d2a;
+    background-color: #363578;
     border-radius: 0.5rem;
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 
-    padding: 1rem 2rem;
+    padding: 2.5% 5%;
 }
 
 .missions-button a:hover{
@@ -426,6 +437,8 @@
     transition: background-color 0.3s ease;
     transition: color 0.3s ease;
 }
+
+
 
 /*CONTACT US*/
 
@@ -592,6 +605,8 @@ ul li a i:hover{
     }
 
     #header-nav-bt{
+        display: block;
+
         width: 5rem;
         height: 5rem;
         background: transparent;
@@ -612,6 +627,10 @@ ul li a i:hover{
     #header-nav-mobile.open{
         visibility: visible;
         height: 35vh;
+    }
+
+    .header-nav-mobile{
+        display: block;
     }
 
 
