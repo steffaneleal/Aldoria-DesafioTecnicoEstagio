@@ -20,7 +20,7 @@
 
 #characters h1{
     color: #cb9987;
-    font-family: Merriweather;
+    font-family: Merriweather, sans-serif;
     font-size: 4rem;
 
     display: flex;
@@ -36,7 +36,7 @@
     text-align: justify;
     width: 80%;
     color: #FFF;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-size: 1.3rem;
     font-weight: 400;
 
@@ -44,16 +44,16 @@
 }
 
 .characters-img1{
-    width: 25%;
-    height: 25%;
+    width: 60%;
+    height: 60%;
     border-radius: 3rem;
 
     margin-right: 3%;
 }
 
 .characters-img2{
-    width: 25%;
-    height: 25%;
+    width: 60%;
+    height: 60%;
     border-radius: 3rem;
 
     margin-left: 3%;
@@ -67,7 +67,7 @@
 
 .characters-container h2{
     color: #cb9987;
-    font-family: Merriweather;
+    font-family: Merriweather, sans-serif;
     font-size: 2rem;
 
     display: flex;
@@ -79,13 +79,13 @@
 
 .characters-container h3{
     color: #cb9987;
-    font-family: Merriweather;
+    font-family: Merriweather, sans-serif;
 
     padding-top: 4%;
 }
 
 .characters-container h3 span{
     color: #FFF;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-weight: 300;
 }
