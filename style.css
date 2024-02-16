@@ -655,9 +655,18 @@ ul li a i:hover{
 
     /*CHARACTERS*/
 
-
-
     /*CAROUSEL*/
+    #index-characters{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #index-characters h1{
+        font-size: 3rem;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+
     .index-characters-cards{
         display: none;
     }
@@ -736,9 +745,39 @@ ul li a i:hover{
 
 
     /*MISSIONS*/
-
-
+    .missions-button a:hover{
+        background-color: #363578;
+        color: #cb9987;
+        transition: background-color 0.3s ease;
+        transition: color 0.3s ease;
+    }
     
+    /*MISSIONS - H*/
+    #missions h1{    
+        font-size: 3rem;
+        font-weight: 600;
+        text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);    
+        padding-top: 4%;  
+    }
+    
+    .missions-left, .missions-right{
+        height: auto;
+    }
+
+    .missions-blocks h2{
+        font-size: 2rem;
+    }
+    
+    .missions-blocks h3{
+        font-size: 1.4rem;
+    }
+    
+    .missions-blocks h4{
+        font-size: 1rem;
+    }
+
+
+
     /*CONTACT US*/
     .contact-us-blocks{
         display: flex;
@@ -835,6 +874,8 @@ ul li a i:hover{
     }
 }
 
+
+
 @media screen and (max-width: 500px){
 
     /*CHARACTERS*/
@@ -914,13 +955,6 @@ ul li a i:hover{
     
     .current-item{
         opacity: 1;
-    }
-
-    .index-characters-button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-            
     }
     
     .index-characters-button a{
