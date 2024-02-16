@@ -10,6 +10,7 @@
 #main-container{
     width: 100%;
     height: auto;
+    overflow-x: hidden;
 }
 
 
@@ -143,7 +144,6 @@
     display: grid;
     justify-content: center;
 
-    background-color: #110d2a;
     background: linear-gradient(to top, #363578, #110d2a);
 }
 
@@ -174,7 +174,6 @@
     background-size: cover;
     border-radius: 3rem;
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
-
 }
 
 .index-characters-card1:hover{
@@ -839,6 +838,7 @@ ul li a i:hover{
 @media screen and (max-width: 500px){
 
     /*CHARACTERS*/
+    
     /*CAROUSEL*/
     .index-characters-cards{
         display: none;
@@ -916,9 +916,97 @@ ul li a i:hover{
         opacity: 1;
     }
 
+    .index-characters-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            
+    }
+    
+    .index-characters-button a{
+        color: #FFF;
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: small;
+    
+        background-color: #363578;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+    
+        padding: 7% 5%;
+    }
+
+
     
     /*MISSIONS*/
+    .missions-left{
+        width: auto;
+        height: 25rem;
+        overflow: hidden;
+    }
+    
+    .missions-right{
+        width: auto;
+        height: 25rem;
+        overflow: hidden;
+    }
 
+    .missions-left-card{
+        width: 18rem;
+        height: 8rem;
+        background-color: #110d2a;
+        border-radius: 1rem;
+        box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+    
+        display: grid;
+        margin-top: 1.5rem;
+    }
+
+    .missions-right-card{
+        width: 18rem;
+        height: 8rem;
+        background-color: #110d2a;
+        border-radius: 1rem;
+        box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+    
+        display: grid;
+        margin-top: 1.5rem;
+    }
+
+    .missions-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        padding-top: 0  ;
+        padding-bottom: 4rem;
+    }
+    
+    .missions-button a{
+        color: #FFF;
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: small;
+    
+        background-color: #363578;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+    
+        padding: 1.4% 3%;
+    }
+
+    #missions h1{
+        padding-top: 15%;
+        padding-bottom: 8%;
+    }
+    
+    #missions h3{
+        font-size: 1rem;
+    }
+
+    #missions h4{
+        font-size: 75%;
+    }
 
 
     /*CONTACT US*/
