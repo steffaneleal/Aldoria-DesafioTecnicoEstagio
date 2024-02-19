@@ -288,7 +288,7 @@
 
 
 /*MISSIONS*/
-#missions{
+#index-missions{
     width: 100%;
     height: auto;
 
@@ -302,42 +302,42 @@
     background-repeat: no-repeat;
 }
 
-.missions-blocks{
+.index-missions-blocks{
     display: flex;
     justify-content: center; 
     gap: 15%;
 }
 
-.missions-left{
+.index-missions-left{
     width: auto;
     height: 25rem;
     overflow: hidden;
 }
 
-.missions-right{
+.index-missions-right{
     width: auto;
     height: 25rem;
     overflow: hidden;
 }
 
-.missions-card-text{
+.index-missions-card-text{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.missions-stars{
+.index-missions-stars{
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.missions-card-stars{
+.index-missions-card-stars{
     display: flex;
     justify-content: center;
 }
 
-.missions-left-card{
+.index-missions-left-card{
     width: 22.5rem;
     height: 10rem;
     background-color: #110d2a;
@@ -348,12 +348,12 @@
     margin-top: 1.5rem;
 }
 
-.missions-left-card:hover{
+.index-missions-left-card:hover{
     background-color: #363578;
     transition: background-color 0.8s ease;
 }
 
-.missions-right-card{
+.index-missions-right-card{
     width: 22.5rem;
     height: 10rem;
     background-color: #110d2a;
@@ -364,12 +364,12 @@
     margin-top: 1.5rem;
 }
 
-.missions-right-card:hover{
+.index-missions-right-card:hover{
     background-color: #363578;
     transition: background-color 0.8s ease;
 }
 
-.missions-button{
+.index-missions-button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -378,7 +378,7 @@
     padding-bottom: 4rem;
 }
 
-.missions-button a{
+.index-missions-button a{
     color: #FFF;
     font-family: Ubuntu, sans-serif;
     font-size: large;
@@ -390,7 +390,7 @@
     padding: 1.4% 3%;
 }
 
-.missions-button a:hover{
+.index-missions-button a:hover{
     background-color: #363578;
     color: #cb9987;
     transition: background-color 0.3s ease;
@@ -398,7 +398,7 @@
 }
 
 /*MISSIONS - H*/
-#missions h1{    
+#index-missions h1{    
     color: #cb9987;
     font-family: Merriweather, sans-serif;  
     font-weight: 600;
@@ -408,7 +408,7 @@
     padding-left: 9%;   
 }
 
-.missions-blocks h2{
+.index-missions-blocks h2{
     display: flex;
     justify-content: center;
 
@@ -418,7 +418,7 @@
     text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
 }
 
-.missions-blocks h3{
+.index-missions-blocks h3{
     width: 18rem;
     color: #FFF;
     font-family: Ubuntu, sans-serif;
@@ -426,7 +426,7 @@
     text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
 }
 
-.missions-blocks h4{
+.index-missions-blocks h4{
     color: #cb9987;
     font-family: Ubuntu, sans-serif;
     font-weight: 400;
@@ -593,7 +593,7 @@ ul li a i:hover{
         font-size: 50%;
     }
 
-    #content1 h1, #index-characters h1, #missions h1 h2, #contact-us h1{
+    #content1 h1, #index-characters h1, #index-missions h1 h2, #contact-us h1{
         font-size: 3rem;
     }
 
@@ -745,7 +745,7 @@ ul li a i:hover{
 
 
     /*MISSIONS*/
-    .missions-button a:hover{
+    .index-missions-button a:hover{
         background-color: #363578;
         color: #cb9987;
         transition: background-color 0.3s ease;
@@ -753,26 +753,26 @@ ul li a i:hover{
     }
     
     /*MISSIONS - H*/
-    #missions h1{    
+    #index-missions h1{    
         font-size: 3rem;
         font-weight: 600;
         text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);    
         padding-top: 4%;  
     }
     
-    .missions-left, .missions-right{
+    .index-missions-left, .index-missions-right{
         height: auto;
     }
 
-    .missions-blocks h2{
+    .index-missions-blocks h2{
         font-size: 2rem;
     }
     
-    .missions-blocks h3{
+    .index-missions-blocks h3{
         font-size: 1.4rem;
     }
     
-    .missions-blocks h4{
+    .index-missions-blocks h4{
         font-size: 1rem;
     }
 
@@ -973,19 +973,19 @@ ul li a i:hover{
 
     
     /*MISSIONS*/
-    .missions-left{
+    .index-missions-left{
         width: auto;
         height: 25rem;
         overflow: hidden;
     }
     
-    .missions-right{
+    .index-missions-right{
         width: auto;
         height: 25rem;
         overflow: hidden;
     }
 
-    .missions-left-card{
+    .index-missions-left-card{
         width: 18rem;
         height: 8rem;
         background-color: #110d2a;
@@ -996,7 +996,7 @@ ul li a i:hover{
         margin-top: 1.5rem;
     }
 
-    .missions-right-card{
+    .index-missions-right-card{
         width: 18rem;
         height: 8rem;
         background-color: #110d2a;
@@ -1007,7 +1007,7 @@ ul li a i:hover{
         margin-top: 1.5rem;
     }
 
-    .missions-button{
+    .index-missions-button{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1016,7 +1016,7 @@ ul li a i:hover{
         padding-bottom: 4rem;
     }
     
-    .missions-button a{
+    .index-missions-button a{
         color: #FFF;
         font-family: Ubuntu, sans-serif;
         font-weight: 400;
@@ -1029,16 +1029,16 @@ ul li a i:hover{
         padding: 1.4% 3%;
     }
 
-    #missions h1{
+    #index-missions h1{
         padding-top: 15%;
         padding-bottom: 8%;
     }
     
-    #missions h3{
+    #index-missions h3{
         font-size: 1rem;
     }
 
-    #missions h4{
+    #index-missions h4{
         font-size: 75%;
     }
 
