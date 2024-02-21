@@ -11,5 +11,65 @@
     width: 100%;
     height: auto;
     background-color: #161617;
+
+    display: flex;
+    flex-direction: column;
 }
 
+
+.missions-cards{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.missions-card{
+    background-color: #110d2a;
+
+    width: 80%;
+    height: 40%;
+    margin: 2% 10%;
+    border-radius: 0.5rem;
+    border: 0.1rem solid red;
+}
+
+.missions-card1{
+
+}
+
+
+/*TEXT*/
+#missions h1{
+    color: #cb9987;
+    font-family: Merriweather, sans-serif;
+    font-size: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
+}
+
+#missions h2{
+    color: #cb9987;
+    font-family: Ubuntu, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
+
+    padding-left: 9%;
+}
+
+#missions h3{
+    color: #cb9987;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
