@@ -1,4 +1,4 @@
-#Projeto Aldoria - Desafio Tecnico
+# Projeto Aldoria - Desafio Tecnico
 
 Neste desafio preciso desenvolver um site de RPG. 
 A aplicação deve permitir ao usuário visualizar detalhes de cada missão e personagem, incluindo descrição, dificuldade e status.
