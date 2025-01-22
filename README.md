@@ -14,5 +14,5 @@ A aplicação deve permitir ao usuário visualizar detalhes de cada missão e pe
  
 ## Referência
 - Todos os personagens foram inspirados na minha família.
-- Imagens criadsa pela Microsoft Copilot.
+- Imagens criadas pelo Microsoft Copilot.
 
